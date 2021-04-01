@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+    background-color: lightgrey;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+  
+.wrapper {
+    margin-top: 10px;
+    margin-left: 212px;
+    width: 600px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(5, 400px);
+    grid-template-rows: repeat(5, 600px);
+}
+
+img{
+      width: 300px;
+}
+
+
